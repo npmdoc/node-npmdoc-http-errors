@@ -1,6 +1,6 @@
 # npmdoc-http-errors
 
-#### api documentation for  [http-errors (v1.6.1)](https://github.com/jshttp/http-errors#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-http-errors.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-http-errors) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-http-errors.svg)](https://travis-ci.org/npmdoc/node-npmdoc-http-errors)
+#### basic api documentation for  [http-errors (v1.6.1)](https://github.com/jshttp/http-errors#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-http-errors.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-http-errors) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-http-errors.svg)](https://travis-ci.org/npmdoc/node-npmdoc-http-errors)
 
 #### Create HTTP error objects
 
@@ -96,7 +96,8 @@
         "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot",
         "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter dot"
     },
-    "version": "1.6.1"
+    "version": "1.6.1",
+    "bin": {}
 }
 ```
 
